@@ -4,5 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+# Hi, I'm Mohammad
+> I'm a software engineer who enjoys working with Microsoft's latest technologies, creating solutions that empower people, and engaging with the community. I have a solid background in .NET and SharePoint, as well as Microsoft 365, Azure, and Microsoft Bot Framework. I have developed and integrated customized applications for various industries, and I have strong leadership skills with a global perspective and a focus on teamwork and motivation. I also like to contribute to open source projects, especially the PnP community.
+
+# Find me around the web:
+- Learning in public on <a href="https://twitter.com/Mohammad3mer" rel="nofollow">Twitter</a>
+- Sharing updates on <a href="https://www.linkedin.com/in/mohammad3mer" rel="nofollow">LinkedIn</a>
