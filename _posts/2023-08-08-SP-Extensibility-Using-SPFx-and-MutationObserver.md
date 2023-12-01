@@ -213,7 +213,7 @@ Monitoring the div element that has this class “actionsWrapper-xxx” monitori
 _Screenshot3 — Inspecting right side of the a SharePoint site Main Header_
 
 
-I assume that you created an SPFx extension, and I assume that you have created few handlers in the [SPFx extension)](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/extensions/overview-extensions). We should have these handlers MutationHandler, SharePointPageHandler and a component -In my case, it's the PlayNine component- that you would like to render once we click on the action button that we are going to add to the site’s main header.
+I assume that you created an SPFx extension, and I assume that you have created few handlers in the [SPFx extension](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/extensions/overview-extensions). We should have these handlers MutationHandler, SharePointPageHandler and a component -In my case, it's the PlayNine component- that you would like to render once we click on the action button that we are going to add to the site’s main header.
 
 ```
 //Call this function from the application customizer file.  
