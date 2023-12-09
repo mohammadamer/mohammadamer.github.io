@@ -37,7 +37,7 @@ The query method is utilized in various scenarios depending on the properties an
 
 It's important to note that search requests are executed on behalf of the user, and the search results are subject to the applicable access control policies. For instance, when dealing with files, the permissions associated with the files are taken into account during the search request. The scope of search results is constrained to align with the access permissions, ensuring that users cannot retrieve more items in a search than what they would be able to access through a corresponding GET operation with identical permissions and access controls.
 
-### Scope search based on entity types
+#### Scope search based on entity types
 Define the scope of the search request using the entityTypes property in the query request payload. The types available to query:
 
 - **chatMessage** Teams messages.
@@ -74,7 +74,7 @@ Define the scope of the search request using the entityTypes property in the que
 }
 ```
 
-### Page search results
+#### Page search results
 Control pagination of the search results by specifying the following two properties in the query request body:
 - **from** - An integer that indicates the 0-based starting point to list search results on the page. The default value is 0.
 - **size** - An integer that indicates the number of results to be returned for a page. The default is 25 results. The maximum is 1000 results.
@@ -101,7 +101,7 @@ The upper limit for SharePoint or OneDrive items is 1000. A reasonable page size
 }
 ```
 
-### Get selected properties
+#### Get selected properties
 When searching an entity type, such as **message**, **event**, **drive**, **driveItem**, **list**, **listItem**, **site**, **externalItem**, you can include in the fields property specific entity properties to return in the search results. This is similar to using the OData system query option, $select in REST requests. The search API does not technically support these query options because the behavior is expressed in the POST body.
 
 For all these entity types, specifying the fields property reduces the number of properties returned in the response, optimizing the payload over the wire.
@@ -188,7 +188,7 @@ If the fields specified in the request are either not present in the schema, or 
 }
 ```
 
-### Sort search results
+#### Sort search results
 Search results in the response are sorted in the following default sort order:
 
 - message and event are sorted by date.
@@ -260,7 +260,7 @@ To exclude content marked with a certain property value from your search results
 - The Query **language-country/region** must be defined in your search query prior to collecting content.
 - When searching the **Sent** folders for emails, using the SMTP address for the sender isn't supported. Items in the **Sent** folder contain only display names.
 
-### Narrow down results to a particular site or hub
+#### Narrow down results to a particular site or hub
 As one of the known limitation is that  `search API doesn't support the site-level search schema` and it's really important in some cases to limit the returned results and get results only from specific site or hub by using `SiteID:site-id` or `DepartmentId:depatment-id` or   `path:sites/HelloWorld/` in the query string.
 
 Get results from specific SharePoint site by specifing the `SiteID` in the query string:
@@ -300,7 +300,7 @@ Get results from specific SharePoint HUB and the associated sites by specifing t
     ]
 }
 ```
-### Narrow down results to only news articles
+#### Narrow down results to only news articles
 ```
 {
     "requests": [
@@ -318,7 +318,7 @@ Get results from specific SharePoint HUB and the associated sites by specifing t
 }
 ```
 
-### References:
+### References
 * [Overview of Microsoft Search](https://learn.microsoft.com/en-us/microsoftsearch/overview-microsoft-search)
 * [Overview of the Microsoft Search API in Microsoft Graph](https://learn.microsoft.com/en-us/graph/search-concept-overview)
 * [Use the Microsoft Search API to query data](https://learn.microsoft.com/en-us/graph/api/resources/search-api-overview?view=graph-rest-1.0)
