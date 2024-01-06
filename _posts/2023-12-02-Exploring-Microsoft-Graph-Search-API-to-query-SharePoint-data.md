@@ -306,9 +306,7 @@ Get results from specific SharePoint HUB and the associated sites by specifing t
     "requests": [
         {
             "entityTypes": [
-                "drive",
-                "listItem",
-                "driveItem"
+                "listItem"
             ],
             "query": {
                 "queryString": "contoso PromotedState:2"
@@ -322,3 +320,4 @@ Get results from specific SharePoint HUB and the associated sites by specifing t
 * [Overview of Microsoft Search](https://learn.microsoft.com/en-us/microsoftsearch/overview-microsoft-search)
 * [Overview of the Microsoft Search API in Microsoft Graph](https://learn.microsoft.com/en-us/graph/search-concept-overview)
 * [Use the Microsoft Search API to query data](https://learn.microsoft.com/en-us/graph/api/resources/search-api-overview?view=graph-rest-1.0)
+* [Github Practical Example: Teams Message Extension that leverages Microsoft Graph Search API](https://github.com/mohammadamer/msgext-graph-search)
