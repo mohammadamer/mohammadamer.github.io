@@ -22,7 +22,7 @@ By Using Microsoft Graph connectors, you will be able to centralize information 
 Using Microsoft Graph connectors, you can centralize information in your organization on Microsoft 365. Importing external content to Microsoft 365 allows you to find and discover relevant information and share it with your colleagues more easily. When you use Copilot for Microsoft 365, importing external content to Microsoft 365 lets Copilot reason over all information in your organization, which empowers it to give you more relevant responses.
 
 ### Tips
-* Don't start your connection id with microsoft like what I did `microsoft365roadmap` because I got error `The request is malformed or incorrect` and the connection failed to be cretaed.
+* Don't start your connection id with microsoft like what I did `microsoft365roadmap` because I got error `The request is malformed or incorrect` and the connection failed to be created.
 
 ![Connection Id](/assets/img/posts/2024-02-18-Ingest-M365-Roadmap-Content-in-Microsoft-365-Using-Microsoft-Graph-Connectors/The-request-is-malformed-or-incorrect.png)
 
@@ -31,6 +31,6 @@ Using Microsoft Graph connectors, you can centralize information in your organiz
 ![There are no versions available for the package](/assets/img/posts/2024-02-18-Ingest-M365-Roadmap-Content-in-Microsoft-365-Using-Microsoft-Graph-Connectors/There-are-no-versions-available-for-the-package.png)
 
 ### References:
-* [Integrate external content with Copilot for Microsoft 365 using Microsoft Graph connectors built with .NET]( http://aka.ms/gc/learn)
-* [Microsoft Graph connectors samples](aka.ms/gc/samples)
+* [Integrate external content with Copilot for Microsoft 365 using Microsoft Graph connectors built with .NET](https://learn.microsoft.com/en-us/training/modules/copilot-graph-connectors/)
+* [Microsoft Graph connectors samples](https://adoption.microsoft.com/en-us/sample-solution-gallery/?keyword=&sort-by=updateDateTime-true&page=1&product=Microsoft+Graph+connectors)
 * [GitHub Repo for Microsft365 Roadmap Connector](https://github.com/mohammadamer/GraphConnectorM365RoadMap)
