@@ -168,7 +168,7 @@ export enum EntityType {
 If it's the first time for the end user to open the extension, then the user must authenticate thus obtain a token.
 After that the user will be able to query Microsoft 356 data by leveraging Graph client using the authentication provider with the required Graph permission scops. By Choosing the message extension specific command, Mapping will occur to specify the proper entity type that should be passed to Graph API.
 ```
-public async handleTeamsMessagingExtensionQuery(context: TurnContext, query: MessagingExtensionQuery): Promise<any> {
+ public async handleTeamsMessagingExtensionQuery(context: TurnContext, query: MessagingExtensionQuery): Promise<any> {
 
     return await handleMessageExtensionQueryWithSSO(context, oboAuthConfig, initialLoginEndpoint, ["User.Read.All", "User.Read"],
      async (token: MessageExtensionTokenResponse) => {
@@ -216,7 +216,12 @@ public async handleTeamsMessagingExtensionQuery(context: TurnContext, query: Mes
                 const title = this.GetThumbnailCardTitle(item, entityType);
                 const text = this.GetThumbnailCardText(item, entityType);
 
-                const thumbnailCard = CardFactory.thumbnailCard(title, text);
+                //messages and events have a different card format than files and list items, so we need to handle them differently
+                const thumbnailCard = (entityType === EntityType.Message || entityType === EntityType.Event) ? 
+                CardFactory.thumbnailCard(title, text) :
+                CardFactory.thumbnailCard(title, text, undefined,
+                  [{type: ActionTypes.OpenUrl, title: "View Item", value: item.resource.webUrl}]);
+
                 attachments.push(thumbnailCard);
               }
           }
@@ -284,18 +289,6 @@ public async handleTeamsMessagingExtensionQuery(context: TurnContext, query: Mes
   }
 ```
 
-#### Handle Message Extension SelectItem
-```
-  public async handleTeamsMessagingExtensionSelectItem(context: TurnContext, obj: any): Promise<any> {
-    return {
-      composeExtension: {
-        type: "result",
-        attachmentLayout: "list",
-        attachments: [CardFactory.heroCard(obj.name, obj.description)],
-      },
-    };
-  }
-```
 ### Conclusion
 Overall, Microsoft Teams message extensions and the Graph Search API provide developers with a powerful set of tools for creating custom search experiences within Teams. By leveraging these tools, developers can create apps that help users find and share information more easily, improving collaboration and productivity within their organization.
 
