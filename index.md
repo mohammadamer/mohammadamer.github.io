@@ -3,7 +3,15 @@ layout: page
 title: Thank You!
 sitemap: false
 ---
+Thank you for taking the time to explore my blog! 🎉
 
+I began my journey in the tech industry as a .NET and SharePoint developer in 2009. Over the past decade, I've immersed myself in SharePoint and Azure backend development.
+
+ Currently, I'm exploring client-side development, including SPFx not only but also Microsoft Azure, Microsoft Teams, and Microsoft Graph development.
+
+The learning never stops! During my leisure time, I contribute to the SharePoint Framework (SPFx) Samples projects. For those unfamiliar, these open-source projects are invaluable for fully leveraging your M365 environment, allowing for comprehensive management and configuration with ease.
+
+<!-- 
 Thank you for buying the PRO version of Hydejack! 🎉
 
 More than one year ago I was looking for a blogging platform but couldn't find it:
@@ -44,4 +52,4 @@ containing example content:
 [documentation]: docs/README.md
 [install]: docs/install.md
 [upgrade]: docs/upgrade.md
-[config]: docs/config.md
+[config]: docs/config.md -->

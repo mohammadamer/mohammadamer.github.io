@@ -3,7 +3,6 @@ layout: projects
 title: Projects
 show_collection: projects
 description: >
-  How people are using Hydejack in the real world. 
-  This page is built using the `projects` layout* that you can use yourself to build a portfolio.
+  Microsoft 365 projects and source code in Github, feel free to contribute to my projects, ask questions or report issues.
 no_groups: true
 ---

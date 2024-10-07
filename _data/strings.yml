@@ -117,9 +117,9 @@ resume:
   education:           Education
   education_title:     <!--study_type--> in <!--area--> from <!--institution--> with GPA of <!--gpa-->
   courses:             Courses
-  awards:              Awards
+  awards:              Certifications
   awards_title:        <!--title--> from <!--awarder-->
-  publications:        Publications
+  publications:        Contributions
   publications_title:  <!--name--> by <!--publisher-->
   references:          References
   languages:           Languages

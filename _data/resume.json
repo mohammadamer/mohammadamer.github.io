@@ -1,0 +1,149 @@
+{
+    "basics": {
+        "name": "Mohammad Amer",
+        "label": "Azure Developer | Microsoft 365 | Technical Lead",
+        "picture": "/assets/img/me.png",
+        "email": "",
+        "phone": "(371) 2025-9899",
+        "website": "https://mohamadamer.com",
+        "summary": "I  have been working for more than ten years of combined experience with .NET and SharePoint technology implementations. I find great pleasure in leveraging Microsoft's cutting-edge technologies to create solutions that empower individuals and cultivate community engagement. With a strong foundation in .NET and SharePoint, along with expertise in Microsoft 365, Azure, and the Microsoft Bot Framework, I have developed a diverse skill set. My experience includes crafting highly tailored applications for diverse industries and seamlessly integrating them with various systems. As a proficient solution lead, I excel in global collaboration and team motivation. Moreover, I actively contribute to open-source initiatives. Recently, I embarked on a blogging journey, focusing on SharePoint and Microsoft Teams development.\n",
+        "location": {
+            "address": "Riga, Latvia",
+            "postalCode": "LV1035",
+            "city": "Riga",
+            "countryCode": "Latvia",
+            "region": "EU"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "Mohammad Amer",
+                "url": "https://www.linkedin.com/in/mohammad3mer"
+            },
+            {
+                "network": "Twitter",
+                "username": "Mohammad Amer",
+                "url": "https://x.com/Mohammad3mer"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Atea Global Services",
+            "position": "Azure Developer | Microsoft 365 | Technical Lead",
+            "website": "",
+            "startDate": "2020-10-01",
+            "endDate": "",
+            "summary": "Skilled in designing and modeling solution architectures, developing intranet solutions on SharePoint Online, and leveraging Azure services for feature automation and integration. Skilled in CI/CD pipeline implementation, utilizing Azure DevOps, and syncing content between environments with Azure Logic Apps.\n",
+            "highlights": [
+                "Participated in design and moding the solutions architecture in different modeling architecture plateforms before build and development processess",
+                "Built an intranet for the company based on SharePoint online which serving employees in several countries by collaborating, engaging and sharing content",
+                "Participated in modling the architecture of all developed features using Archimate modling language",
+                "Built and automated different environments using JSON data format and developed multiple features based on Azure and SharePoint online by leverging Azure functions, Storage Tables, Storage Queues, App Insights, keyvaults and Azure AI Translator service and many more Azure services",
+                "Built CI/CD in Azure DevOps and delivered multiple pipelines automated features",
+                "Built an integration between two different SharePoint Onpremises environments using Azure",
+                "Logic apps daily job to sync content based on SharePoint APIs"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "South Valley University",
+            "area": "Computer Science",
+            "studyType": "Bachelor",
+            "startDate": "2003-09-01",
+            "endDate": "2007-08-31",
+            "gpa": "4.0",
+            "courses": [
+                "Mathematics",
+                "C++ Programming Language",
+                "many more courses"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Microsoft Certified: Azure Developer Associate",
+            "date": "2024-07-05",
+            "awarder": "Microsoft",
+            "summary": "Azure Development."
+        },
+        {
+            "title": "Microsoft Certified: Azure Fundamentals",
+            "date": "2024-07-05",
+            "awarder": "Microsoft",
+            "summary": "Azure Fundamentals."
+        }
+    ],
+    "publications": [
+        {
+            "name": "Ingest M365 Roadmap content in Microsoft 365 using Microsoft Graph connectors using C# and .NET",
+            "publisher": "Mohammad Amer",
+            "releaseDate": "2024-06-09",
+            "website": "https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-graph-connector-dotnet-csharp-m365-roadmap",
+            "summary": "Ingest M365 Roadmap content in Microsoft 365 using Microsoft Graph connectors using C# and .NET"
+        },
+        {
+            "name": "SharePoint online React Calendar - Wepart Contributions",
+            "publisher": "Mohammad Amer",
+            "releaseDate": "2024-06-28",
+            "website": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-calendar",
+            "summary": "SharePoint online React Calendar for working with SharePoint Events list"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "ReactJS",
+                "Type Script"
+            ]
+        },
+        {
+            "name": "Microsoft dot net development",
+            "level": "Intermediate",
+            "keywords": [
+                "C#",
+                "ASP.NET",
+                "Entity Framework",
+                "SQL Server"
+            ]
+        },
+        {
+            "name": "Microsoft 365 development",
+            "level": "Intermediate",
+            "keywords": [
+                "SharePoint Online",
+                "SharePoint Framework SPFx",
+                "PnP Powershell",
+                "Power Platform"
+            ]
+        }
+
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Advanced Level"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Travel",
+            "keywords": [
+                "Nature Photography",
+                "Caltures"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Pavel Rudenko",
+            "reference": "I have been working with Mohammed for 2+ years in Accenture Latvia. Mohammed has strong skill in o365 and SharePoint development as well as good communication abilities. All projects were accomplished successfully with positive feedback from different clients. Mohammed is reliable, hardworking employee. From my perspective, he is senior enough to become a team lead.\n"
+        }
+    ]
+}
