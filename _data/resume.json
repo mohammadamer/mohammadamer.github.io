@@ -3,15 +3,15 @@
         "name": "Mohammad Amer",
         "label": "Azure Developer | Microsoft 365 | Technical Lead",
         "picture": "/assets/img/me.png",
-        "email": "",
-        "phone": "(371) 2025-9899",
+        "email": "m.amer@live.com",
+        "phone": "",
         "website": "https://mohamadamer.com",
         "summary": "I  have been working for more than ten years of combined experience with .NET and SharePoint technology implementations. I find great pleasure in leveraging Microsoft's cutting-edge technologies to create solutions that empower individuals and cultivate community engagement. With a strong foundation in .NET and SharePoint, along with expertise in Microsoft 365, Azure, and the Microsoft Bot Framework, I have developed a diverse skill set. My experience includes crafting highly tailored applications for diverse industries and seamlessly integrating them with various systems. As a proficient solution lead, I excel in global collaboration and team motivation. Moreover, I actively contribute to open-source initiatives. Recently, I embarked on a blogging journey, focusing on SharePoint and Microsoft Teams development.\n",
         "location": {
             "address": "Riga, Latvia",
-            "postalCode": "LV1035",
+            "postalCode": "",
             "city": "Riga",
-            "countryCode": "Latvia",
+            "countryCode": "LV",
             "region": "EU"
         },
         "profiles": [
@@ -84,7 +84,7 @@
             "summary": "Ingest M365 Roadmap content in Microsoft 365 using Microsoft Graph connectors using C# and .NET"
         },
         {
-            "name": "SharePoint online React Calendar - Wepart Contributions",
+            "name": "SharePoint online React Calendar - Webpart Contributions",
             "publisher": "Mohammad Amer",
             "releaseDate": "2024-06-28",
             "website": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-calendar",
