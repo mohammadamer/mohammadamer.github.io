@@ -7,6 +7,7 @@ date: 2024-11-10 21:14 +0300
 # tags: [M365, Microsoft Graph connectors, Microsoft 365 copilot, MS Graph]
 
 title: Using PowerShell to Call the Microsoft Graph Search API and Export Results to CSV
+image: /assets/img/posts/2024-11-10-Using-PowerShell-to-Call-the-Microsoft-Graph-Search-API/powershell-to-call-microsoft-graph-search-api.jpeg
 description: >
    Microsoft Graph offers a powerful way to interact with Microsoft 365 data. Using the Microsoft Graph Search API, you can retrieve content from SharePoint and other sources in Microsoft 365 by running customized search queries. In this article, we'll walk through a PowerShell script that calls the Microsoft Graph Search API, searches SharePoint content based on specified keywords, and exports the results into a CSV file for easy analysis.
 ---
