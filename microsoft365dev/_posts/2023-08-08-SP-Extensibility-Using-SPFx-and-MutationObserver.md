@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unleash SharePoint Extensibility using SharePoint Framework and MutationObserver API
-date: 2023-08-08 20:14 +0300
+date: 2023-08-08 21:14 +0300
 #categories: [SharePoint Framework, Mutation Observer]
 
 # categories: [SharePoint Framework, MutationObserver, SPFx extension, SharePoint Online]

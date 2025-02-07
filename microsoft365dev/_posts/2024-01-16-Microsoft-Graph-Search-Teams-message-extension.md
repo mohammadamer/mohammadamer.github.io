@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Microsoft Graph Search Teams message extension
-date: 2024-01-16 20:14 +0300
+date: 2024-01-16 21:14 +0300
 #categories: [Teams Message Extension, Microsoft Graph Search API]
 
 # categories: [M365, Teams message Extension, Microsoft Graph Search API, Microsoft Teams Development]

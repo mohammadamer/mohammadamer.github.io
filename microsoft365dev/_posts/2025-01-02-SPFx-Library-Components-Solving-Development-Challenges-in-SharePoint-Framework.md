@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-12-30 14:14 +0300
+date: 2024-01-02 21:14 +0300
 #categories: [M365, Copilot Studio, Copilot, SharePoint FrameWork]
 
 #categories: [M365, Microsoft Graph connectors, Microsoft 365 copilot, m365 development]

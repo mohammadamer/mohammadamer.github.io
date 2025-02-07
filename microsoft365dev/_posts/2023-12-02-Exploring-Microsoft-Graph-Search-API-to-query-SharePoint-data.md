@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exploring Microsoft Graph Search API to query SharePoint data
-date: 2023-12-02 20:14 +0300
+date: 2023-12-02 21:14 +0300
 #categories: [Microsoft Graph Search API]
 
 # categories: [Microsoft Graph, Microsoft Graph Search API, SharePoint Search, Keyword Query Language (KQL)]

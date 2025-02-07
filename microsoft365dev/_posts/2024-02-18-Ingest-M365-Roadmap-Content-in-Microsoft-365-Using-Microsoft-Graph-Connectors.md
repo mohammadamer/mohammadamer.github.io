@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-02-18 20:14 +0300
+date: 2024-02-18 21:14 +0300
 #categories: [Microsoft 365 Copilot, Microsoft Graph Connectors]
 
 #categories: [M365, Microsoft Graph connectors, Microsoft 365 copilot, m365 development]
