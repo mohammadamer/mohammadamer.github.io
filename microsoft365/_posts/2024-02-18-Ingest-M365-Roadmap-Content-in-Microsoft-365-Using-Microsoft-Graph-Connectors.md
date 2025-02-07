@@ -7,7 +7,7 @@ date: 2024-02-18 21:14 +0300
 # tags: [M365, Microsoft Graph connectors, Microsoft 365 copilot, MS Graph]
 
 title: Ingest M365 Roadmap content in Microsoft 365 using Microsoft Graph connectors
-image: /assets/img/posts/2024-02-18-Ingest-M365-Roadmap-Content-in-Microsoft-365-Using-Microsoft-Graph-Connectors/M365-Roadmap-Graph-Connector01.png
+image: /assets/img/posts/2024-02-18-Ingest-M365-Roadmap-Content-in-Microsoft-365-Using-Microsoft-Graph-Connectors/m365-roadmap-graph-connector-header-image.jpeg
 description: >
   Most of us are always going to Microsoft 365 roadmap site to get latest updates about the M365 roadmap features but have you ever through that the Microsoft 365 roadmap features could be Ingested into Microsoft 365 using a Microsoft Graph connector.
 ---
