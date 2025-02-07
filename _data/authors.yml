@@ -8,8 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Hi, I’m Mohammad. I’m a Microsoft 365 Developer and Enthusiast.
-    I love contributing and write blog posts about Microsoft 365 development.
+    Hi, I’m Mohammad. I’m a Microsoft 365 Developer and Enthusiast. I'm a Microsoft MVP and I love contributing and write blog posts about Microsoft 365 and Copilot development.
 
 
   # This photo will be used in the about section
