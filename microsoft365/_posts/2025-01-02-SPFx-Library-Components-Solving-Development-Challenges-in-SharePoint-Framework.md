@@ -1,12 +1,13 @@
 ---
 layout: post
-date: 2024-01-02 21:14 +0300
+date: 2025-01-02 21:14 +0300
 #categories: [M365, Copilot Studio, Copilot, SharePoint FrameWork]
 
 #categories: [M365, Microsoft Graph connectors, Microsoft 365 copilot, m365 development]
 # tags: [M365, Microsoft Graph connectors, Microsoft 365 copilot, MS Graph]
 
 title: SPFx Library Components - Solving Development Challenges in SharePoint Framework
+image: /assets/img/posts/2025-01-02-SPFx-Library-Components-Solving-Development-Challenges-in-SharePoint-Framework/spfx-library-components.jpeg
 description: >
    The library component type in the SharePoint Framework (SPFx) lets you create code that can be versioned and deployed independently. This code is automatically available to all SPFx components through an app catalog. Library components offer a way to create shared code that can be used across all components in the tenant.
 ---
