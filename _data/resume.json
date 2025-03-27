@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "Mohammad Amer",
-        "label": "Azure Developer | Microsoft 365 | Technical Lead",
+        "label": "Microsoft MVP | Azure Developer | Microsoft 365 | Technical Lead",
         "picture": "/assets/img/me.png",
         "email": "m.amer@live.com",
         "phone": "",
@@ -24,6 +24,11 @@
                 "network": "Twitter",
                 "username": "Mohammad Amer",
                 "url": "https://x.com/Mohammad3mer"
+            },
+            {
+                "network": "BlueSky",
+                "username": "Mohammad Amer",
+                "url": "https://bsky.app/profile/mohammadamer.bsky.social"
             }
         ]
     },
@@ -63,6 +68,18 @@
     ],
     "awards": [
         {
+            "title": "Microsoft MVP Award",
+            "date": "2025-01-01",
+            "awarder": "Microsoft",
+            "summary": "Microsoft Most Valuable Professional Award"
+        },
+        {
+            "title": "Credly Badges",
+            "date": "2025-01-01",
+            "awarder": "www.credly.com",
+            "summary": "All my Credly Badges https://www.credly.com/users/mohammadamer"
+        },
+        {
             "title": "Microsoft Certified: Azure Developer Associate",
             "date": "2024-07-05",
             "awarder": "Microsoft",
@@ -76,6 +93,13 @@
         }
     ],
     "publications": [
+        {
+            "name": "Microsoft 365 Community Contributions - Sample Solution Gallery",
+            "publisher": "Mohammad Amer",
+            "releaseDate": "2025-01-01",
+            "website": "https://adoption.microsoft.com/en-us/sample-solution-gallery/mohammadamer/",
+            "summary": "This is my Microsoft 365 Community Contributions - Sample Solution Gallery"
+        },
         {
             "name": "Ingest M365 Roadmap content in Microsoft 365 using Microsoft Graph connectors using C# and .NET",
             "publisher": "Mohammad Amer",
@@ -129,7 +153,12 @@
         {
             "language": "English",
             "fluency": "Advanced Level"
+        },
+        {
+            "language": "Latvian",
+            "fluency": "A2 Level"
         }
+
     ],
     "interests": [
         {
@@ -142,8 +171,8 @@
     ],
     "references": [
         {
-            "name": "Pavel Rudenko",
-            "reference": "I have been working with Mohammed for 2+ years in Accenture Latvia. Mohammed has strong skill in o365 and SharePoint development as well as good communication abilities. All projects were accomplished successfully with positive feedback from different clients. Mohammed is reliable, hardworking employee. From my perspective, he is senior enough to become a team lead.\n"
+            "name": "LinkedIn References",
+            "reference": "Find my linkedIn references in my LinkedIn Profile"
         }
     ]
 }
