@@ -24,11 +24,11 @@ author1:
   # Rearrange to change the order in which they appear
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
+    linkedin:        mohammad3mer
     twitter:         mohammad3mer
     github:          mohammadamer
-    email:           m.amer@live.com
-    rss:             https://mohamadamer.com/feed.xml
     youtube:         Mohammad3mer
+    email:           m.amer@live.com
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
