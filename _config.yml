@@ -52,6 +52,8 @@ menu:
     url:               /blog/
   - title:             Projects
     url:               /projects/
+  - title:             Community Demos
+    url:               /demos/
   - title:             Resume
     url:               /resume/
   #- title:             Documentation
@@ -68,7 +70,7 @@ legal:
   #   url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2024. All rights reserved.
+copyright:             © 2025. All rights reserved.
 
 # Format of the permalinks
 permalink:             /blog/:categories/:year-:month-:day-:title/
@@ -304,6 +306,9 @@ collections:
     permalink:         /projects/:path/
     output:            true
 
+  demos:
+    permalink:         /demos/:path/
+    output:            true
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
