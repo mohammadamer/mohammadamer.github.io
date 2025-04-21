@@ -13,7 +13,7 @@ image:
     960w:  /assets/img/posts/2024-05-08-automate-sharepoint-pages-translation-using-sharepoint-webhooks-and-azure-translator-service/SharePointPagesTranslation01.png
     480w:  /assets/img/posts/2024-05-08-automate-sharepoint-pages-translation-using-sharepoint-webhooks-and-azure-translator-service/SharePointPagesTranslation01.png
 links:
-  - title: Link
+  - title: GitHub Repo Link
     url: https://github.com/mohammadamer/SharePointPagesTranslation
 accent_color: '#4fb1ba'
 accent_image:

@@ -13,7 +13,7 @@ image:
     960w:  /assets/img/posts/2024-08-06-Integrating-a-custom-copilot-into-the-SharePoint-Search-Page/screenshot-solution-in-action04.png
     480w:  /assets/img/posts/2024-08-06-Integrating-a-custom-copilot-into-the-SharePoint-Search-Page/screenshot-solution-in-action04.png
 links:
-  - title: Link
+  - title: GitHub Repo Link
     url: https://github.com/mohammadamer/copilot-in-search-page
 accent_color: '#4fb1ba'
 accent_image:

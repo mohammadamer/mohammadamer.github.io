@@ -49,7 +49,7 @@ layout: base
         <span class="sr-only">{{ separator }} {{ site.data.strings.links | default:"Links" }}{{ site.data.strings.colon }}</span>
         <span class="{{ site.data.strings.links_icon | default:'icon-link' }}" title="{{ site.data.strings.links | default:'Links' }}"></span>
         {% for link in project.links %}
-          <a class="external" href="{{ link.url }}" property="sameAs">{{ link.title }}</a>
+          <a class="external" href="{{ link.url }}" target="_blank" property="sameAs">{{ link.title }}</a>
           {% unless forloop.last %}{{ separator }}{% endunless %}
         {% endfor %}
       </span>
@@ -57,6 +57,10 @@ layout: base
 
     {% assign screenshot = project.screenshot | default:project.image %}
     <div class="img-wrapper lead aspect-ratio sixteen-nine {% unless screenshot %}fallback-img{% endunless %}">
+
+    {% for link in project.links %}
+    <a class="external" href="{{ link.url }}" target="_blank" property="sameAs">
+
       {% if screenshot %}
         {% include_cached components/hy-img.html
           img=screenshot
@@ -67,6 +71,11 @@ layout: base
           height=486
         %}
       {% endif %}
+
+    </a>
+    {% unless forloop.last %}{{ separator }}{% endunless %}
+    {% endfor %}
+
     </div>
 
     {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}

@@ -12,7 +12,7 @@ image:
     960w: /assets/img/projects/sharepoint-agents-finder-declarative-agent.jpg
     480w: /assets/img/projects/sharepoint-agents-finder-declarative-agent.jpg
 links:
-  - title: Link
+  - title: GitHub Repo Link
     url: https://github.com/mohammadamer/da-sharepoint-agents-finder
 accent_color: '#4fb1ba'
 accent_image:
