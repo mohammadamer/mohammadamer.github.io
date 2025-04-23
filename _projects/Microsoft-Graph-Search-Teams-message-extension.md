@@ -12,7 +12,7 @@ image:
     960w:  /assets/img/posts/2024-01-16-Microsoft-Graph-Search-Teams-message-extension/Microsoft-Graph-Search-Teams-message-extension01.png
     480w:  /assets/img/posts/2024-01-16-Microsoft-Graph-Search-Teams-message-extension/Microsoft-Graph-Search-Teams-message-extension01.png
 links:
-  - title: Link
+  - title: GitHub Repo Link
     url: https://github.com/mohammadamer/msgext-graph-search
 accent_color: '#4fb1ba'
 accent_image:

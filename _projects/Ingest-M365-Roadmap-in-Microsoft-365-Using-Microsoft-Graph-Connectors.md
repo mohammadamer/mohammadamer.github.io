@@ -12,7 +12,7 @@ image:
     960w: /assets/img/posts/2024-02-18-Ingest-M365-Roadmap-Content-in-Microsoft-365-Using-Microsoft-Graph-Connectors/m365-roadmap-graph-connector-header-image.jpeg
     480w: /assets/img/posts/2024-02-18-Ingest-M365-Roadmap-Content-in-Microsoft-365-Using-Microsoft-Graph-Connectors/m365-roadmap-graph-connector-header-image.jpeg
 links:
-  - title: Link
+  - title: GitHub Repo Link
     url: https://github.com/pnp/graph-connectors-samples/tree/main/samples/dotnet-csharp-m365-roadmap
 accent_color: '#4fb1ba'
 accent_image:
