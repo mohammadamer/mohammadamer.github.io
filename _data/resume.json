@@ -35,19 +35,43 @@
     "work": [
         {
             "company": "Atea Global Services",
-            "position": "Azure Developer | Microsoft 365 | Technical Lead",
+            "position": "Microsoft Tech Lead – .NET | Azure | M365 | Architecture",
             "website": "",
             "startDate": "2020-10-01",
             "endDate": "",
             "summary": "Skilled in designing and modeling solution architectures, developing intranet solutions on SharePoint Online, and leveraging Azure services for feature automation and integration. Skilled in CI/CD pipeline implementation, utilizing Azure DevOps, and syncing content between environments with Azure Logic Apps.\n",
             "highlights": [
-                "Participated in design and moding the solutions architecture in different modeling architecture plateforms before build and development processess",
-                "Built an intranet for the company based on SharePoint online which serving employees in several countries by collaborating, engaging and sharing content",
-                "Participated in modling the architecture of all developed features using Archimate modling language",
-                "Built and automated different environments using JSON data format and developed multiple features based on Azure and SharePoint online by leverging Azure functions, Storage Tables, Storage Queues, App Insights, keyvaults and Azure AI Translator service and many more Azure services",
-                "Built CI/CD in Azure DevOps and delivered multiple pipelines automated features",
-                "Built an integration between two different SharePoint Onpremises environments using Azure",
-                "Logic apps daily job to sync content based on SharePoint APIs"
+                "Designed enterprise-grade solutions architecture using ArchiMate and BlueDolphin.",
+                "Built a multilingual SharePoint Online intranet for 6,000+ users across countries.",
+                "Automated Azure + SharePoint workflows using Functions, Storage Queues, and Azure AI Translator.",
+                "Delivered full CI/CD pipelines in Azure DevOps for rapid deployment.",
+                "Developed cross-SharePoint sync via Logic Apps and custom APIs."
+            ]
+        },
+        {
+            "company": "CGI Latvia",
+            "position": "M365 / Azure Developer",
+            "website": "",
+            "startDate": "2019-11-01",
+            "endDate": "2020-09-30",
+            "summary": "SharePoint on-premises, SharePoint online development and integrations using Azure Functions",
+            "highlights": [
+                "Built productivity-enhancing SharePoint 2016 web parts and integrations using Azure Functions.",
+                "Solved M365 data loss and compliance issues through PowerShell automation and policy tuning.",
+                "Modernized legacy WSP solutions for SharePoint 2013."
+            ]
+        },
+        {
+            "company": "Accenture Baltics",
+            "position": "Solutions Developer – Azure | Office 365 | .NET",
+            "website": "",
+            "startDate": "2018-02-01",
+            "endDate": "2019-10-30",
+            "summary": "SharePoint on-premises, SharePoint online development and integrations using Azure Functions",
+            "highlights": [
+                "Created a secure cross-domain access solution using Azure Automation, API Management, and SharePoint Online.",
+                "Built a mail analysis dashboard using .NET Core, ReactJS, and Exchange Online.",
+                "Designed a SPFx-powered internal Wiki with Wikipedia-style UI/UX."
             ]
         }
     ],
@@ -99,42 +123,33 @@
             "releaseDate": "2025-01-01",
             "website": "https://adoption.microsoft.com/en-us/sample-solution-gallery/mohammadamer/",
             "summary": "This is my Microsoft 365 Community Contributions - Sample Solution Gallery"
-        },
-        {
-            "name": "Ingest M365 Roadmap content in Microsoft 365 using Microsoft Graph connectors using C# and .NET",
-            "publisher": "Mohammad Amer",
-            "releaseDate": "2024-06-09",
-            "website": "https://adoption.microsoft.com/en-us/sample-solution-gallery/sample/pnp-graph-connector-dotnet-csharp-m365-roadmap",
-            "summary": "Ingest M365 Roadmap content in Microsoft 365 using Microsoft Graph connectors using C# and .NET"
-        },
-        {
-            "name": "SharePoint online React Calendar - Webpart Contributions",
-            "publisher": "Mohammad Amer",
-            "releaseDate": "2024-06-28",
-            "website": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-calendar",
-            "summary": "SharePoint online React Calendar for working with SharePoint Events list"
         }
     ],
     "skills": [
         {
-            "name": "Web Development",
-            "level": "Master",
+            "name": "Frontend - Web Development",
+            "level": "Intermediate",
             "keywords": [
                 "HTML",
                 "CSS",
                 "Javascript",
                 "ReactJS",
-                "Type Script"
+                "TypeScript",
+                "jQuery"
             ]
         },
         {
-            "name": "Microsoft dot net development",
+            "name": "Backend - Microsoft dotnet development",
             "level": "Intermediate",
             "keywords": [
                 "C#",
                 "ASP.NET",
                 "Entity Framework",
-                "SQL Server"
+                "SQL Server",
+                "SSIS",
+                "Azure Functions",
+                "Azure Logic Apps",
+                "Azure DevOps"
             ]
         },
         {
@@ -145,6 +160,14 @@
                 "SharePoint Framework SPFx",
                 "PnP Powershell",
                 "Power Platform"
+            ]
+        },
+          {
+            "name": "Architecture",
+            "level": "Intermediate",
+            "keywords": [
+                "ArchiMate",
+                "BlueDolphin"
             ]
         }
 
@@ -166,6 +189,10 @@
             "keywords": [
                 "Nature Photography",
                 "Caltures"
+            ],
+            "Biking": [
+                "Mountain Biking",
+                "Road Biking"
             ]
         }
     ],
