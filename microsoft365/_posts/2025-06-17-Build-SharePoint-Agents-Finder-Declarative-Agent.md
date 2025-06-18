@@ -46,13 +46,13 @@ To generate the plugin:
 
 3. Select Copilot Plugin and assign a name, such as graphsearch.
 
-![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot01.png)<br>
-![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot02.png)<br>
-![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot03.png)<br>
-![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot04.png)<br>
-![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot05.png)<br>
-![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot06.png)<br>
-![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot07.png)<br>
+![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot01.png)<br><br>
+![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot02.png)<br><br>
+![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot03.png)<br><br>
+![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot04.png)<br><br>
+![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot05.png)<br><br>
+![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot06.png)<br><br>
+![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot07.png)<br><br>
 
 ### Import the plugin with Microsoft 365 Agents Toolkit
 
@@ -96,23 +96,23 @@ Upon completion, you should observe the ai-plugin.json file and a new folder nam
    - Register an Entra ID application.
    - Assign the Graph API permissions: `Files.Read.All` as delegated permissions.
    - Retrieve the `ClientId`, `ClientSecret`, and `TenantID`.
-   - Add the https://teams.microsoft.com/api/platform/v1.0/oAuthRedirect as a redirect URL for web platform in the Authentication settings.
+   - Add the `https://teams.microsoft.com/api/platform/v1.0/oAuthRedirect` as a redirect URL for web platform in the Authentication settings.
 
 2. **Teams developer portal**:
    - Open [Teams developer portal](https://dev.teams.microsoft.com/)
    - Add a new OAuth client registration 
    - Register a new client with the following information 
         - Registration name: da-sharepoint-agents-finder
-        - Base URL: https://graph.microsoft.com/v1.0
+        - Base URL: `https://graph.microsoft.com/v1.0`
         - Restrict usage by org: My organization only
         - Restrict usage by app: Any Teams app (when agent is deployed, use the Teams app ID).
 
    - OAuth settings
-        - Client ID: <the entra ID application ID>
-        - Client secret: <the Entra ID application secret>
-        - Authorization endpoint `(replace tenantid by your own value)`: https://login.microsoftonline.com/tenantid/oauth2/v2.0/authorize
-        - Token endpoint `(replace tenantid by your own value)`: https://login.microsoftonline.com/tenantid/oauth2/v2.0/token
-        - Refresh endpoint `(replace tenantid by your own value)`: https://login.microsoftonline.com/tenantid/oauth2/v2.0/refresh
+        - Client ID: `<the entra ID application ID>`
+        - Client secret: `<the Entra ID application secret>`
+        - Authorization endpoint `(replace tenantid by your own value)`: `https://login.microsoftonline.com/tenantid/oauth2/v2.0/authorize`
+        - Token endpoint `(replace tenantid by your own value)`: `https://login.microsoftonline.com/tenantid/oauth2/v2.0/token`
+        - Refresh endpoint `(replace tenantid by your own value)`: `https://login.microsoftonline.com/tenantid/oauth2/v2.0/refresh`
         - Scope: Files.Read.All
         - Save the information. 
         - A new OAuth registration key will be generated. Save it in secure place to be added in `.env.dev`
@@ -193,14 +193,3 @@ This SharePoint Agents Finder agent is step forward for using SharePoint content
 
 ### GitHub Repos
 * [SharePoint Agents Finder declarative agent - GitHub Repo](https://github.com/mohammadamer/da-sharepoint-agents-finder)
-
-
-
-
-
-
-
-
-
-
-
