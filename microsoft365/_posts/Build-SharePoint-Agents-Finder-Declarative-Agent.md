@@ -1,18 +1,12 @@
 ---
 layout: post
-date: 2025-05-17 21:14 +0300
-#categories: [Microsoft 365 Copilot, Microsoft Graph Connectors]
-
-#categories: [M365, Microsoft Graph connectors, Microsoft 365 copilot, m365 development]
-# tags: [M365, Microsoft Graph connectors, Microsoft 365 copilot, MS Graph]
-
-
+date: 2025-06-18 21:14 +0300
+tags: [agents]
 
 title: Build SharePoint Agents Finder declarative agent
 image: /assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/sharepoint-agents-finder-declarative-agent.jpg
-
 description: >
-The SharePoint Agents Finder leverages the Microsoft Graph API as a Copilot plugin within a declarative agent. It utilizes the Microsoft Graph Search API's `/search/query` endpoint to efficiently retrieve information about SharePoint Agents and any file within Microsoft 365. This empowers end-users and IT administrators to quickly access details on SharePoint Agents or locate specific files in Microsoft 365 directly through the M365 Copilot chat interface.
+  The SharePoint Agents Finder leverages the Microsoft Graph API as a Copilot plugin within a declarative agent. It utilizes the Microsoft Graph Search API's `/search/query` endpoint to efficiently retrieve information about SharePoint Agents and any file within Microsoft 365. This empowers end-users and IT administrators to quickly access details on SharePoint Agents or locate specific files in Microsoft 365 directly through the M365 Copilot chat interface.
 ---
 
 # Build SharePoint Agents Finder declarative agent
@@ -53,13 +47,13 @@ To generate the plugin:
 
 3. Select Copilot Plugin and assign a name, such as graphsearch.
 
-![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot01.png)<br><br>
-![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot02.png)<br><br>
-![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot03.png)<br><br>
-![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot04.png)<br><br>
-![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot05.png)<br><br>
-![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot06.png)<br><br>
-![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot07.png)<br><br>
+![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot01.png)<br>
+![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot02.png)<br>
+![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot03.png)<br>
+![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot04.png)<br>
+![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot05.png)<br>
+![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot06.png)<br>
+![Generate the Copilot plugin](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot07.png)<br>
 
 ### Import the plugin with Microsoft 365 Agents Toolkit
 
@@ -67,25 +61,25 @@ Within Visual Studio code, navigate to the Microsoft 365 Agents Toolkit options.
 
 Upon completion, you should observe the ai-plugin.json file and a new folder named apiSpecificationFile containing two files: openapi.yaml and openapi.yaml.original. These files will be located under the appPackage folder.
 
-![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot08.png)<br><br>
+![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot08.png)<br>
 
-![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot09.png)<br><br>
+![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot09.png)<br>
 
-![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot10.png)<br><br>
+![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot10.png)<br>
 
-![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot11.png)<br><br>
+![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot11.png)<br>
 
-![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot12.png)<br><br>
+![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot12.png)<br>
 
-![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot13.png)<br><br>
+![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot13.png)<br>
 
-![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot14.png)<br><br>
+![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot14.png)<br>
 
-![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot15.png)<br><br>
+![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot15.png)<br>
 
-![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot16.png)<br><br>
+![Import the plugin with Microsoft 365 Agents Toolkit](/assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/Screenshot16.png)<br>
 
-### Update openapi.yaml:
+### Update openapi.yaml
    - Ensure you open this file `appPackage\apiSpecificationFile\openapi.yaml` and update the `tenantid` with your tenant Id.
    ```
      securitySchemes:
@@ -184,15 +178,14 @@ Use no more than 3 keywords enclosed by double quotes and separated by an 'OR' c
 - **Querying Microsoft 365 and SharePoint content**: Querying Microsoft 365 and SharePoint content delivering structured responses in table format with links to files.
 - **SharePoint Agents Finder or SharePoint Agents doc finder**: As long as the agent utilizes the Microsoft Graph API search then it could find not only SharePoint Agents but also any document in Microsoft 365.
 
-### Conclusion 🎯
-This SharePoint Agents Finder agent is step forward for using SharePoint content with Microsoft 365 Copilot. By using the Microsoft Graph Search API, we've made it much easier for find SharePoint Agents and other important documents. The guide covers everything from setting up the plugin to configuring Entra ID, giving you a solid plan to get it working. This not only makes finding info quicker but also shows off what's possible with declarative agents and the Microsoft Graph API, helping you get more out of Copilot and access crucial company knowledge.
-
-
-## Potential Improvements
+### Potential Improvements
 - **Table of Responses**: Table of Responses is a potential improvement that could be improved through the instructions
 - **SharePoint Agent Link**: SharePoint Agent Link should be improved to either direct you to the agent or the link of the agent should appear in the SiteAssets library.
 
-### Addition information and references
+### Conclusion 🎯
+This SharePoint Agents Finder agent is step forward for using SharePoint content with Microsoft 365 Copilot. By using the Microsoft Graph Search API, we've made it much easier for find SharePoint Agents and other important documents. The guide covers everything from setting up the plugin to configuring Entra ID, giving you a solid plan to get it working. This not only makes finding info quicker but also shows off what's possible with declarative agents and the Microsoft Graph API, helping you get more out of Copilot and access crucial company knowledge.
+
+### Aditional information and references
 - [Declarative agents for Microsoft 365](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-declarative-agent?wt.mc_id=MVP_433449)
 - [Copilot developer Camp](https://aka.ms/copilotdevcamp?wt.mc_id=MVP_433449)
 - [Microsoft 365 Copilot pro-developer samples](https://github.com/pnp/copilot-pro-dev-samples/)

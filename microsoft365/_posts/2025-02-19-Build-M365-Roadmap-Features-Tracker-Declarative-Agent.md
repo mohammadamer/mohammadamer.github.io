@@ -1,10 +1,7 @@
 ---
 layout: post
 date: 2025-02-19 21:14 +0300
-#categories: [Microsoft 365 Copilot, Microsoft Graph Connectors]
-
-#categories: [M365, Microsoft Graph connectors, Microsoft 365 copilot, m365 development]
-# tags: [M365, Microsoft Graph connectors, Microsoft 365 copilot, MS Graph]
+tags: [agents]
 
 title: Build A M365 Roadmap Features Tracker Declarative Agent
 image: /assets/img/posts/2025-02-17-Build-M365-Roadmap-Features-Tracker-Declarative-Agent/m365rroadmap-features-tracker-declarative-agent.jpeg
