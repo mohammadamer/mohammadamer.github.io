@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 2025-06-18 21:14 +0300
-tags: [agents]
+date: 2025-06-17 21:14 +0300
 
 title: Build SharePoint Agents Finder declarative agent
 image: /assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/sharepoint-agents-finder-declarative-agent.jpg
