@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2025-02-19 21:14 +0300
+tags: [agents]
 
 title: Build A M365 Roadmap Features Tracker Declarative Agent
 image: /assets/img/posts/2025-02-17-Build-M365-Roadmap-Features-Tracker-Declarative-Agent/m365rroadmap-features-tracker-declarative-agent.jpeg
