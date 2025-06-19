@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2025-06-17 21:14 +0300
+tags: [agents]
 
 title: Build SharePoint Agents Finder declarative agent
 image: /assets/img/posts/2025-05-17-Build-SharePoint-Agents-Finder-Declarative-Agent/sharepoint-agents-finder-declarative-agent.jpg
@@ -192,4 +193,5 @@ This SharePoint Agents Finder agent is step forward for using SharePoint content
 - [Use the Microsoft Graph API as a Copilot plugin for a declarative agent](https://blog.franckcornu.com/post/copilot-graph-api-qna-plugin/)
 
 ### GitHub Repos
-* [SharePoint Agents Finder declarative agent - GitHub Repo](https://github.com/mohammadamer/da-sharepoint-agents-finder)
+* [SharePoint Agents Finder declarative agent - Built with Microsoft 365 Agents Toolkit - GitHub Repo](https://github.com/mohammadamer/da-sp-agents-finder)
+* [SharePoint Agents Finder declarative agent - Built with Teams Toolkit - GitHub Repo](https://github.com/mohammadamer/da-sharepoint-agents-finder)
