@@ -3,7 +3,7 @@ layout: project
 title: 'M365 Roadmap Features Tracker Declarative Agent'
 caption: M365 Roadmap Features Tracker Declarative Agent
 description: >
- I Inspired by the Microsoft Copilot Developer Camp, I decided to take advantage of Declarative Agents to automate and simplify this process. This led me to create the M365 Roadmap Features Tracker Declarative Agent — a smart, efficient solution that keeps teams informed about the latest updates.
+  The M365 Roadmap Features Tracker Declarative Agent is a powerful agent for staying on top of Microsoft 365 Roadmap features updates. By leveraging Declarative Agents and Microsoft Graph Connectors, you can automate repetitive tasks, deliver timely information, and enhance productivity.
 date: 19 Feb 2025
 image: 
   path: /assets/img/posts/2025-02-17-Build-M365-Roadmap-Features-Tracker-Declarative-Agent/m365rroadmap-features-tracker-declarative-agent.jpeg
