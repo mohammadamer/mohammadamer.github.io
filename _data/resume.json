@@ -1,205 +1,199 @@
 {
-    "basics": {
-        "name": "Mohammad Amer",
-        "label": "Microsoft MVP | Azure Developer | Microsoft 365 | Technical Lead",
-        "picture": "/assets/img/me.png",
-        "email": "m.amer@live.com",
-        "phone": "",
-        "website": "https://mohamadamer.com",
-        "summary": "I  have been working for more than ten years of combined experience with .NET and SharePoint technology implementations. I find great pleasure in leveraging Microsoft's cutting-edge technologies to create solutions that empower individuals and cultivate community engagement. With a strong foundation in .NET and SharePoint, along with expertise in Microsoft 365, Azure, and the Microsoft Bot Framework, I have developed a diverse skill set. My experience includes crafting highly tailored applications for diverse industries and seamlessly integrating them with various systems. As a proficient solution lead, I excel in global collaboration and team motivation. Moreover, I actively contribute to open-source initiatives. Recently, I embarked on a blogging journey, focusing on SharePoint and Microsoft Teams development.\n",
-        "location": {
-            "address": "Riga, Latvia",
-            "postalCode": "",
-            "city": "Riga",
-            "countryCode": "LV",
-            "region": "EU"
-        },
-        "profiles": [
-            {
-                "network": "LinkedIn",
-                "username": "Mohammad Amer",
-                "url": "https://www.linkedin.com/in/mohammad3mer"
-            },
-            {
-                "network": "Twitter",
-                "username": "Mohammad Amer",
-                "url": "https://x.com/Mohammad3mer"
-            },
-            {
-                "network": "BlueSky",
-                "username": "Mohammad Amer",
-                "url": "https://bsky.app/profile/mohammadamer.bsky.social"
-            }
-        ]
+  "basics": {
+    "name": "Mohammad Amer",
+    "label": "Microsoft MVP | Azure Developer | Microsoft 365 | Technical Lead",
+    "picture": "/assets/img/me.png",
+    "email": "m.amer@live.com",
+    "phone": "",
+    "website": "https://mohamadamer.com",
+    "summary": "I am experienced .NET & Azure Solution Architect with over ten years of experience designing and delivering enterprise solutions using .NET, Microsoft 365, and Azure. My background spans SharePoint implementations, Microsoft Teams and SharePoint Framework (SPFx) development, and modern cloud-first architectures that align with enterprise strategies and security requirements.\n I am passionate about leveraging Microsoft’s ecosystem including Azure services and Microsoft 365—to create scalable, secure, and business-aligned solutions that empower organizations and enhance collaboration. My expertise includes integrating CRM, productivity, and communication platforms, as well as designing architecture artifacts that support enterprise roadmaps.\n In addition to solution design, I have led a team of developers, facilitated cross-functional collaboration, and communicated architecture decisions to both technical and business stakeholders. I am deeply engaged in the Microsoft 365 community, actively contributing to open-source initiatives and sharing knowledge through blogging and showing cases on Microsoft 365, SharePoint and Teams development.\n I’m proud to be recognized as a Microsoft MVP in M365 Development, reflecting my commitment to driving innovation and actively contributing to the community.\n",
+    "location": {
+      "address": "Riga, Latvia",
+      "postalCode": "",
+      "city": "Riga",
+      "countryCode": "LV",
+      "region": "EU"
     },
-    "work": [
-        {
-            "company": "Atea Global Services",
-            "position": "Microsoft Tech Lead – .NET | Azure | M365 | Architecture",
-            "website": "",
-            "startDate": "2020-10-01",
-            "endDate": "",
-            "summary": "Skilled in designing and modeling solution architectures, developing intranet solutions on SharePoint Online, and leveraging Azure services for feature automation and integration. Skilled in CI/CD pipeline implementation, utilizing Azure DevOps, and syncing content between environments with Azure Logic Apps.\n",
-            "highlights": [
-                "Designed enterprise-grade solutions architecture using ArchiMate and BlueDolphin.",
-                "Built a multilingual SharePoint Online intranet for 6,000+ users across countries.",
-                "Automated Azure + SharePoint workflows using Functions, Storage Queues, and Azure AI Translator.",
-                "Delivered full CI/CD pipelines in Azure DevOps for rapid deployment.",
-                "Developed cross-SharePoint sync via Logic Apps and custom APIs."
-            ]
-        },
-        {
-            "company": "CGI Latvia",
-            "position": "M365 / Azure Developer",
-            "website": "",
-            "startDate": "2019-11-01",
-            "endDate": "2020-09-30",
-            "summary": "SharePoint on-premises, SharePoint online development and integrations using Azure Functions",
-            "highlights": [
-                "Built productivity-enhancing SharePoint 2016 web parts and integrations using Azure Functions.",
-                "Solved M365 data loss and compliance issues through PowerShell automation and policy tuning.",
-                "Modernized legacy WSP solutions for SharePoint 2013."
-            ]
-        },
-        {
-            "company": "Accenture Baltics",
-            "position": "Solutions Developer – Azure | Office 365 | .NET",
-            "website": "",
-            "startDate": "2018-02-01",
-            "endDate": "2019-10-30",
-            "summary": "SharePoint on-premises, SharePoint online development and integrations using Azure Functions",
-            "highlights": [
-                "Created a secure cross-domain access solution using Azure Automation, API Management, and SharePoint Online.",
-                "Built a mail analysis dashboard using .NET Core, ReactJS, and Exchange Online.",
-                "Designed a SPFx-powered internal Wiki with Wikipedia-style UI/UX."
-            ]
-        }
-    ],
-    "education": [
-        {
-            "institution": "South Valley University",
-            "area": "Computer Science",
-            "studyType": "Bachelor",
-            "startDate": "2003-09-01",
-            "endDate": "2007-08-31",
-            "gpa": "4.0",
-            "courses": [
-                "Mathematics",
-                "C++ Programming Language",
-                "many more courses"
-            ]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Microsoft MVP Award",
-            "date": "2025-01-01",
-            "awarder": "Microsoft",
-            "summary": "Microsoft Most Valuable Professional Award"
-        },
-        {
-            "title": "Credly Badges",
-            "date": "2025-01-01",
-            "awarder": "www.credly.com",
-            "summary": "All my Credly Badges https://www.credly.com/users/mohammadamer"
-        },
-        {
-            "title": "Microsoft Certified: Azure Developer Associate",
-            "date": "2024-07-05",
-            "awarder": "Microsoft",
-            "summary": "Azure Development."
-        },
-        {
-            "title": "Microsoft Certified: Azure Fundamentals",
-            "date": "2024-07-05",
-            "awarder": "Microsoft",
-            "summary": "Azure Fundamentals."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Microsoft 365 Community Contributions - Sample Solution Gallery",
-            "publisher": "Mohammad Amer",
-            "releaseDate": "2025-01-01",
-            "website": "https://adoption.microsoft.com/en-us/sample-solution-gallery/mohammadamer/",
-            "summary": "This is my Microsoft 365 Community Contributions - Sample Solution Gallery"
-        }
-    ],
-    "skills": [
-        {
-            "name": "Frontend - Web Development",
-            "level": "Intermediate",
-            "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript",
-                "ReactJS",
-                "TypeScript",
-                "jQuery"
-            ]
-        },
-        {
-            "name": "Backend - Microsoft dotnet development",
-            "level": "Intermediate",
-            "keywords": [
-                "C#",
-                "ASP.NET",
-                "Entity Framework",
-                "SQL Server",
-                "SSIS",
-                "Azure Functions",
-                "Azure Logic Apps",
-                "Azure DevOps"
-            ]
-        },
-        {
-            "name": "Microsoft 365 development",
-            "level": "Intermediate",
-            "keywords": [
-                "SharePoint Online",
-                "SharePoint Framework SPFx",
-                "PnP Powershell",
-                "Power Platform"
-            ]
-        },
-          {
-            "name": "Architecture",
-            "level": "Intermediate",
-            "keywords": [
-                "ArchiMate",
-                "BlueDolphin"
-            ]
-        }
-
-    ],
-    "languages": [
-        {
-            "language": "English",
-            "fluency": "Advanced Level"
-        },
-        {
-            "language": "Latvian",
-            "fluency": "A2 Level"
-        }
-
-    ],
-    "interests": [
-        {
-            "name": "Travel",
-            "keywords": [
-                "Nature Photography",
-                "Caltures"
-            ],
-            "Biking": [
-                "Mountain Biking",
-                "Road Biking"
-            ]
-        }
-    ],
-    "references": [
-        {
-            "name": "LinkedIn References",
-            "reference": "Find my linkedIn references in my LinkedIn Profile"
-        }
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Mohammad Amer",
+        "url": "https://www.linkedin.com/in/mohammad3mer"
+      },
+      {
+        "network": "Twitter",
+        "username": "Mohammad Amer",
+        "url": "https://x.com/Mohammad3mer"
+      },
+      {
+        "network": "BlueSky",
+        "username": "Mohammad Amer",
+        "url": "https://bsky.app/profile/mohammadamer.bsky.social"
+      }
     ]
+  },
+  "work": [
+    {
+      "company": "Atea Global Services",
+      "position": "Microsoft .NET | Azure | M365 Development Tech Lead",
+      "website": "",
+      "startDate": "2020-10-01",
+      "endDate": "",
+      "summary": "Skilled in designing and modeling solution architectures, developing intranet solutions on SharePoint Online, and leveraging Azure services for feature automation and integration. Skilled in CI/CD pipeline implementation, utilizing Azure DevOps, and syncing content between environments with Azure Logic Apps.\n",
+      "highlights": [
+        "Designed and documented enterprise-grade solution architectures using ArchiMate and BlueDolphin, ensuring alignment with organizational frameworks, principles, and strategies.",
+        "Architected and delivered a multilingual SharePoint Online intranet, ensuring scalability, performance, and alignment with business collaboration needs.",
+        "Integrated Azure services with Microsoft 365 by automating workflows using Azure Functions, Storage Queues, and Azure AI Translator, delivering secure and efficient multilingual content management.",
+        "Established robust CI/CD pipelines in Azure DevOps, enabling rapid, reliable, and repeatable deployments of Microsoft 365 and Azure workloads.",
+        "Architected hybrid integrations between two on-premises SharePoint environments using Azure Logic Apps and SharePoint APIs, ensuring consistent synchronization of business-critical content.",
+        "Delivered cloud-native solutions leveraging Azure Functions, Logic Apps, and Infrastructure as Code (Bicep), ensuring compliance with IT security directives and supporting business strategy and roadmaps.",
+        "Partnered with stakeholders to explain architectural decisions, present alternatives, and ensure solutions met security, reliability, and quality requirements."
+      ]
+    },
+    {
+      "company": "CGI Latvia",
+      "position": "Microsoft .NET | Azure | Microsoft 365 Development Specialist",
+      "website": "",
+      "startDate": "2019-11-01",
+      "endDate": "2020-09-30",
+      "summary": "SharePoint on-premises, SharePoint online development and integrations using Azure Functions",
+      "highlights": [
+        "Designed and delivered business-critical SharePoint 2016 on-premises solutions, developing custom web parts that streamlined client processes and improved productivity.",
+        "Architected integrations between third-party applications and SharePoint 2016 using Azure Functions and Azure Blob storage, accelerating business workflows and ensuring scalability.",
+        "Developed automation scripts in PowerShell to extract actionable insights from SharePoint 2016 and SharePoint Online, empowering client decision-making with reliable reporting.",
+        "Resolved Microsoft 365 data loss prevention (DLP) and protection policy issues in collaboration with Microsoft support, ensuring compliance with enterprise security directives.",
+        "Modernized legacy SharePoint 2013 codebases by building and packaging WSP solutions, enabling maintainability and supporting incremental enhancements."
+      ]
+    },
+    {
+      "company": "Accenture Baltics",
+      "position": "Microsoft .NET | Azure | Microsoft 365 Development Specialist, ",
+      "website": "",
+      "startDate": "2018-02-01",
+      "endDate": "2019-10-30",
+      "summary": "SharePoint on-premises, SharePoint online development and integrations using Azure Functions",
+      "highlights": [
+        "Architected and implemented a secure cross-domain access solution enabling partner employees from external domains to access SharePoint Online in the client’s domain. Automated the onboarding process end-to-end using Azure Functions, Azure API Management, Automation Runbooks, and SharePoint Online communication sites.",
+        "Designed and developed the back-end for a mailbox analytics solution leveraging Azure AD, Exchange Online, Azure SQL Server, and .NET Core with ReactJS, providing detailed email usage statistics and improving collaboration visibility.",
+        "Built modern low-code solutions with Microsoft Power Apps, Power Automate (Flows), and Microsoft Forms to streamline business processes and enhance agility on Office 365.",
+        "Developed a SharePoint Online wiki platform using SPFx web parts, enabling end users to collaborate on a centralized, Wikipedia-style knowledge hub."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "South Valley University",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2003-09-01",
+      "endDate": "2007-08-31",
+      "gpa": "4.0",
+      "courses": [
+        "Mathematics",
+        "C++ Programming Language",
+        "many more courses"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Microsoft MVP Award",
+      "date": "2025-01-01",
+      "awarder": "Microsoft",
+      "summary": "Microsoft Most Valuable Professional Award"
+    },
+    {
+      "title": "Credly Badges",
+      "date": "2025-01-01",
+      "awarder": "www.credly.com",
+      "summary": "All my Credly Badges https://www.credly.com/users/mohammadamer"
+    },
+    {
+      "title": "Microsoft Certified: Azure Developer Associate",
+      "date": "2024-07-05",
+      "awarder": "Microsoft",
+      "summary": "Azure Development."
+    },
+    {
+      "title": "Microsoft Certified: Azure Fundamentals",
+      "date": "2024-07-05",
+      "awarder": "Microsoft",
+      "summary": "Azure Fundamentals."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Microsoft 365 Community Contributions - Sample Solution Gallery",
+      "publisher": "Mohammad Amer",
+      "releaseDate": "2025-01-01",
+      "website": "https://adoption.microsoft.com/en-us/sample-solution-gallery/mohammadamer/",
+      "summary": "This is my Microsoft 365 Community Contributions - Sample Solution Gallery"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend - Web Development",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "ReactJS",
+        "TypeScript",
+        "jQuery"
+      ]
+    },
+    {
+      "name": "Backend - Microsoft dotnet development",
+      "level": "Intermediate",
+      "keywords": [
+        "C#",
+        "ASP.NET",
+        "Entity Framework",
+        "SQL Server",
+        "SSIS",
+        "Azure Functions",
+        "Azure Logic Apps",
+        "Azure DevOps"
+      ]
+    },
+    {
+      "name": "Microsoft 365 development",
+      "level": "Intermediate",
+      "keywords": [
+        "SharePoint Online",
+        "SharePoint Framework SPFx",
+        "PnP Powershell",
+        "Power Platform"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "level": "Intermediate",
+      "keywords": ["ArchiMate", "BlueDolphin"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced Level"
+    },
+    {
+      "language": "Latvian",
+      "fluency": "A2 Level"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Travel",
+      "keywords": ["Nature Photography", "Caltures"],
+      "Biking": ["Mountain Biking", "Road Biking"]
+    }
+  ],
+  "references": [
+    {
+      "name": "LinkedIn References",
+      "reference": "Find my linkedIn references in my LinkedIn Profile"
+    }
+  ]
 }
