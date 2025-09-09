@@ -1,69 +1,43 @@
 ---
 layout: page
-title: Welcome to My Blog! 
+title: Welcome to My Blog!
 sitemap: false
 ---
-🎉 Welcome to My Blog! 🎉
 
-I’m thrilled to have you here! My journey in the tech world began back in 2009 as a .NET and SharePoint developer. Over the years, I’ve delved deep into SharePoint and Azure backend development, building a strong foundation in creating solutions that empower businesses.
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="flex: 2;">
 
-Today, my focus has expanded to embrace modern client-side development with tools like SPFx, as well as cutting-edge technologies like Microsoft Azure, Microsoft Teams, and Microsoft Graph. It’s been an incredible journey of constant learning and growth, and I’m passionate about sharing what I’ve discovered along the way.
+### Hi, I'm Mohammad
+#### **Microsoft .NET & 365 Developer & Architect | Microsoft MVP | Open Source Contributor**
 
-💡 Exciting News! I’m honored to be recognized as a Microsoft MVP in the M365 Development category. This prestigious award fuels my commitment to empowering the community through knowledge sharing and innovation.
+I am experienced .NET & Azure Solution Architect with over ten years of experience designing and delivering enterprise solutions using .NET, Microsoft 365, and Azure. My background spans SharePoint implementations, Microsoft Teams and SharePoint Framework (SPFx) development, and modern cloud-first architectures that align with enterprise strategies and security requirements.
 
-In my free time, I actively contribute to open-source projects like the SharePoint Framework (SPFx) Samples, which provide invaluable resources for anyone looking to harness the full potential of their Microsoft 365 environment. These tools make it easier to manage, configure, and build on M365 with confidence.
+I am passionate about leveraging Microsoft’s ecosystem including Azure services and Microsoft 365—to create scalable, secure, and business-aligned solutions that empower organizations and enhance collaboration. My expertise includes integrating CRM, productivity, and communication platforms, as well as designing architecture artifacts that support enterprise roadmaps.
 
-💬 Let’s Connect!
-I’m passionate about turning complex technology into practical solutions that anyone can use. If you have a question, want to collaborate, or just want to say hello, feel free to reach out or leave a comment. Together, we can continue this amazing journey of learning and building. 🚀
+In addition to solution design, I have led a team of developers, facilitated cross-functional collaboration, and communicated architecture decisions to both technical and business stakeholders. I am deeply engaged in the Microsoft 365 community, actively contributing to open-source initiatives and sharing knowledge through blogging and showing cases on Microsoft 365, SharePoint and Teams development.
 
-🔍 Explore the Blog
-Looking for something specific? Use the navigation above to explore categories or check out my featured posts to dive into some of the most popular topics.
+🏅I’m proud to be recognized as a [Microsoft MVP](https://mvp.microsoft.com/en-US/mvp/profile/70c07471-e35b-4100-97de-5df691ed2b24) in M365 Development, reflecting my commitment to driving
+innovation and actively contributing to the community.
+
+I am also deeply engaged in the Microsoft 365 community, contributing to open-source projects such as the SPFx Samples. These contributions provide valuable resources to help organizations and developers unlock the full potential of Microsoft 365.
+
+💬 Let’s connect! I’m passionate about transforming complex technology into practical solutions anyone can apply. Whether you’re looking to collaborate, exchange ideas, or ask a question, I’d love to hear from you.
+
+🔍 Explore the Blog: Use the navigation above to find categories or discover featured posts on SharePoint, Teams, and Microsoft 365 development.
+
+💻 GitHub Projects: Browse [my open-source projects on GitHub](https://github.com/mohammadamer) — and feel free to share feedback or suggestions for improvements. Together, we can continue building smarter, more impactful solutions. 🚀
 
 Feel free to review my sample [Projects](https://mohamadamer.com/projects) in GitHub. I would appreciate your feedback on any updates or enhancements you identify.
 
+</div>
 
+
+<div style="flex: 1;">
+
+### 
+###
 [![Mohammad Amer's MVP Profile](/assets/img/personal/MVP_Badge_2024.png)](https://mvp.microsoft.com/en-US/mvp/profile/70c07471-e35b-4100-97de-5df691ed2b24)
 
+</div>
 
-<!-- 
-Thank you for buying the PRO version of Hydejack! 🎉
-
-More than one year ago I was looking for a blogging platform but couldn't find it:
-One that would let me write posts in markdown with my own editor,
-one that didn't look awful buy modern design standards, and one that felt snappy on a mobile phone.
-That and more is now Hydejack. I hope you enjoy it [as much as I do](https://qwtel.com/).
-
-## First Steps
-Start by reading the [Documentation]{:.heading.flip-title}.
-Specifically, the chapters below should be relevant now:
-
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start with basic configuration.
-{:.related-posts.faded}
-
-After you've familiarized yourself with Hydejack, you can delete the following folders and files
-containing example content:
-
-~~~
-├── _featured_categories
-│   └── example.md
-├── _projects
-│   └── *
-├── docs
-├── example
-├── licenses
-├── assets
-│   └── img
-│       ├── blog
-│       ├── docs
-│       └── projects
-├── CHANGELOG.md
-├── forms-by-example.md
-├── LICENSE.md
-└── NOTICE.md
-~~~
-
-[documentation]: docs/README.md
-[install]: docs/install.md
-[upgrade]: docs/upgrade.md
-[config]: docs/config.md -->
+</div>
