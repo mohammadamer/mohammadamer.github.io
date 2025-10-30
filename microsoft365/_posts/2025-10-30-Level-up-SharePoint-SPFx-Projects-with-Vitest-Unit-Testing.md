@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-10-30 21:14 +0300
-tags: [SharePoint Framework, SPFx, Vitest, Unit Testing, React, TypeScript]
+date: 2025-10-30 14:14 +0300
+tags: [SPFx]
 
 title: Level up SharePoint SPFx Projects with Vitest Unit Testing
 image: /assets/img/posts/2025-10-30-Level-up-SharePoint-SPFx-Projects-with-Vitest-Unit-Testing/level-up-sharepoint-spfx-projects-with-vitest-unit-testing.png
