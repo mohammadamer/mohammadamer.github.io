@@ -55,7 +55,7 @@ layout: base
     </p>
 
     {% assign screenshot = conference.screenshot | default:conference.image %}
-    <div class="img-wrapper lead aspect-ratio sixteen-nine {% unless screenshot %}fallback-img{% endunless %}">
+    <div class="img-wrapper lead sixteen-nine {% unless screenshot %}fallback-img{% endunless %}">
 
       {% for link in conference.links %}
       <a class="external" href="{{ link.url }}" target="_blank" property="sameAs">
