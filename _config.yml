@@ -312,6 +312,10 @@ collections:
     permalink:         /demos/:path/
     output:            true
 
+  conferences:
+    permalink:         /conferences/:path/
+    output:            true
+
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
 
