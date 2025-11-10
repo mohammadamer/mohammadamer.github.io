@@ -54,6 +54,8 @@ menu:
     url:               /projects/
   - title:             Community Demos
     url:               /demos/
+  - title:             Conferences
+    url:               /conferences/
   - title:             Resume
     url:               /resume/
   #- title:             Documentation
