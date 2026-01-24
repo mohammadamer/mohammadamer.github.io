@@ -17,11 +17,11 @@ description: >
 
 date: 8 November 2025
 image: 
-  path: /assets/img/conferences/Reverse-Engineering-SPFx-Testing-Teaching-GitHub-Copilot-to-Configure-Vitest-for-you.png
+  path: /assets/img/conferences/Reverse-Engineering-SPFx-Testing-Teaching-GitHub-Copilot-to-Configure-Vitest-for-you-01.png
   srcset: 
-    1920w: /assets/img/conferences/Reverse-Engineering-SPFx-Testing-Teaching-GitHub-Copilot-to-Configure-Vitest-for-you.png
-    960w: /assets/img/conferences/Reverse-Engineering-SPFx-Testing-Teaching-GitHub-Copilot-to-Configure-Vitest-for-you-960.png
-    480w: /assets/img/conferences/Reverse-Engineering-SPFx-Testing-Teaching-GitHub-Copilot-to-Configure-Vitest-for-you-480.png
+    1920w: /assets/img/conferences/Reverse-Engineering-SPFx-Testing-Teaching-GitHub-Copilot-to-Configure-Vitest-for-you-01.png
+    960w: /assets/img/conferences/Reverse-Engineering-SPFx-Testing-Teaching-GitHub-Copilot-to-Configure-Vitest-for-you-01.png
+    480w: /assets/img/conferences/Reverse-Engineering-SPFx-Testing-Teaching-GitHub-Copilot-to-Configure-Vitest-for-you-01.png
 links:
   - title: Youtube session link
     url: https://youtu.be/QsrONRaOMRo
